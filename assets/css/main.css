@@ -2738,6 +2738,7 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
+			flex: 1;
 			-moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease, -moz-filter 1s ease, -webkit-filter 1s ease;
 			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease, -webkit-filter 1s ease, -webkit-filter 1s ease;
 			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease, -ms-filter 1s ease, -webkit-filter 1s ease;
@@ -2750,6 +2751,7 @@ input, select, textarea {
 			height: 40vh;
 			max-height: 40em;
 			min-height: 23em;
+			min-width: 15em;
 			overflow: hidden;
 			position: relative;
 			width: 40%;
@@ -2799,6 +2801,7 @@ input, select, textarea {
 			}
 
 			.tiles article:after {
+				/*hover color*/
 				background-color: rgba(36, 41, 67, 0.25);
 				content: '';
 				display: block;
@@ -2853,6 +2856,7 @@ input, select, textarea {
 			.tiles article:nth-child(6n):before {
 				background-color: #87c5a4;
 			}
+			
 
 		@media screen and (max-width: 1280px) {
 
