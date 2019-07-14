@@ -116,6 +116,23 @@
 			}
 		});
 
+	// Project Section.
+
+		// var $projects = $('#projects');
+
+		// $projects.each(function() {
+
+		// 	var $this = $(this);
+		// 	var listing = $this.attr('listing');
+
+
+		// });
+
+		// $projects._toggle = function () {
+			
+		// };
+		
+
 	// Tiles.
 		var $tiles = $('.tiles > article');
 
@@ -155,6 +172,8 @@
 						// Prevent default.
 							event.stopPropagation();
 							event.preventDefault();
+
+
 
 						// Target blank?
 							if ($link.attr('target') == '_blank') {
