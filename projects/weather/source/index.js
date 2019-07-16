@@ -1,5 +1,5 @@
 // Do a CORS request to get Davis weather hourly forecast
-let apiKey = "bd06cd2d0c8bb6e8d852a108e8c4705e";
+let apiKey = "18bf3b090acab64995eab99b53e65f83";
 
 
 // Create the XHR object.
