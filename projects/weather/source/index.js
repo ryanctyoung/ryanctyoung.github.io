@@ -1,5 +1,5 @@
 // Do a CORS request to get Davis weather hourly forecast
-let apiKey = "18bf3b090acab64995eab99b53e65f83";
+let apiKey = "bd06cd2d0c8bb6e8d852a108e8c4705e";
 
 
 // Create the XHR object.
@@ -49,7 +49,7 @@ function makeCorsRequest() {
 		if (errorFlag != 1){
 			getCurrentTemp(object);
 		}
-		//console.log(JSON.stringify(object, undefined, 2));  // print it out as a string, nicely formatted
+		console.log(JSON.stringify(object, undefined, 2));  // print it out as a string, nicely formatted
 	};
 
 	xhr.onerror = function() {
