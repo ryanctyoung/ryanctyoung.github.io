@@ -166,7 +166,7 @@ function getWeatherImage(weather, weatherID) {
 
 function forecastRequest() {
 	// Default case is davis
-	let urlForecast = "http://api.openweathermap.org/data/2.5/forecast/hourly?q=Davis,CA,US&units=imperial&APPID=" + apiKey;
+	let urlForecast = "https://api.openweathermap.org/data/2.5/forecast/hourly?q=Davis,CA,US&units=imperial&APPID=" + apiKey;
 
 	// Parse user input
 	var location2 = "";
@@ -176,7 +176,7 @@ function forecastRequest() {
 	// Request after getting user input
 	if (location2 != ""){
 		console.log("not empty");
-		urlForecast = "http://api.openweathermap.org/data/2.5/forecast/hourly?q=" + location2 + ",US&units=imperial&APPID=" + apiKey;
+		urlForecast = "https://api.openweathermap.org/data/2.5/forecast/hourly?q=" + location2 + ",US&units=imperial&APPID=" + apiKey;
 	}
 
 	let xhr2 = createCORSRequest('GET', urlForecast);
