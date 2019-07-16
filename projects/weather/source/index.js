@@ -57,7 +57,12 @@ function makeCorsRequest() {
 	};
 
 	// Actually send request to server
-	xhr.send();
+	try {
+		xhr.send();
+	}catch(err){
+		console.log("ERROR: " + err.description);
+	}
+
 
 	forecastRequest();
 }
