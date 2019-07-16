@@ -23,7 +23,7 @@ function makeCorsRequest() {
 	// Request after getting user input
 	if (location != ""){
 		console.log("not empty");
-		url = "http://api.openweathermap.org/data/2.5/weather?q=" + location + ",US&units=imperial&APPID=" + apiKey;
+		url = "https://api.openweathermap.org/data/2.5/weather?q=" + location + ",US&units=imperial&APPID=" + apiKey;
 	}
 
 	let xhr = createCORSRequest('GET', url);
