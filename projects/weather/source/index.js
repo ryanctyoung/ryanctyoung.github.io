@@ -13,7 +13,7 @@ function createCORSRequest(method, url) {
 // Make the actual CORS request.
 function makeCorsRequest() {
 	// Default case is davis
-	let url = "http://api.openweathermap.org/data/2.5/weather?q=Davis,CA,US&units=imperial&APPID=" + apiKey;
+	let url = "https://api.openweathermap.org/data/2.5/weather?q=Davis,CA,US&units=imperial&APPID=" + apiKey;
 
 	// Parse user input
 	var location = "";
