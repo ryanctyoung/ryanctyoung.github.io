@@ -1,5 +1,5 @@
 // Do a CORS request to get Davis weather hourly forecast
-let apiKey = "bd06cd2d0c8bb6e8d852a108e8c4705e";
+let apiKey = "18bf3b090acab64995eab99b53e65f83";
 
 
 // Create the XHR object.
@@ -166,7 +166,7 @@ function getWeatherImage(weather, weatherID) {
 
 function forecastRequest() {
 	// Default case is davis
-	let urlForecast = "https://api.openweathermap.org/data/2.5/forecast/hourly?q=Davis,CA,US&units=imperial&APPID=" + apiKey;
+	let urlForecast = "https://api.openweathermap.org/data/2.5/forecast?q=Davis,CA,US&units=imperial&APPID=" + apiKey;
 
 	// Parse user input
 	var location2 = "";
@@ -176,7 +176,7 @@ function forecastRequest() {
 	// Request after getting user input
 	if (location2 != ""){
 		console.log("not empty");
-		urlForecast = "https://api.openweathermap.org/data/2.5/forecast/hourly?q=" + location2 + ",US&units=imperial&APPID=" + apiKey;
+		urlForecast = "https://api.openweathermap.org/data/2.5/forecast?q=" + location2 + ",US&units=imperial&APPID=" + apiKey;
 	}
 
 	let xhr2 = createCORSRequest('GET', urlForecast);
