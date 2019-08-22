@@ -5,11 +5,11 @@ body {
 main{
 	height: 100vh;
 
+
 }
 
 #top {
 	background-image: linear-gradient( rgb(73,138,220), rgb(98,59,156) );
-	height: 65%;
 	display: flex;
 	box-shadow: 0 4vh 15px 4vh rgba(0,0,0, 0.15);
 }
@@ -164,7 +164,7 @@ main{
 #bottom {
 	display: flex;
 	justify-content: space-around;
-	height: 35%;
+	
 }
 
 .forecast {
@@ -211,12 +211,6 @@ main{
 	font-weight: 300;
 	font-size: 7vw;
 	/*padding-bottom: 15%;*/
-}
-
-#bottom {
-	display: flex;
-	justify-content: space-around;
-	height: 35%;
 }
 
 .forecast {
@@ -584,6 +578,11 @@ main{
 /*        */
 /*        */
 @media only screen and (min-width: 1050px) and (max-width: 1310px) {
+
+	main{
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 
