@@ -3471,6 +3471,7 @@ input, select, textarea {
 				-ms-align-items: center;
 				align-items: center;
 				margin: 0 0 2em 0;
+				color:#37a6cb; /* custom */
 			}
 
 				#banner > .inner .content > * {
