@@ -3,12 +3,29 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Data Portfolio
+title: Improvement through Insight
+id: 1
 ---
-## Improvement through Insight
-  Coaching, data analysis
+What to Expect:
 
+<div class="section" markdown="1">
+## Technical Proficiency
+  - Python data analysis
+  - Business Intelligence (Microsoft Power BI)
+  - Experience with both relational and document databases
+</div>
 
+<div class="section" markdown="1">
+## Software Development Experience
+Background in Agile software development, from frontend implementation to backend pipeline maintenance.
+</div>
 
-## Sports Industry
-Journey as a Data Scientist as well as a competitor and coach
+<div class="section" markdown="1">
+## Problem Solving Skills / Inquisitive Nature
+
+</div>
+
+<div class="section" markdown="1">
+## Passion for Competition
+Application of data analysis and critical thinking in NBA basketball
+</div>
