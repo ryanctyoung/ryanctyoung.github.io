@@ -21,7 +21,7 @@
 title: Ryan Young
 email: ryanctyoung@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My collection of data science projects, blogs, and thought experiments.
+  Software Developer aspiring to switch to data analytics. Currently looking to join an organization and help sustain a data-driven operation.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ryanctyoung.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "ryanctyoung.github.io"
@@ -56,3 +56,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - README.md

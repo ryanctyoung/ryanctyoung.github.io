@@ -3,4 +3,10 @@
 # only main files contain this front matter, not partials.
 ---
 
+// order matters
+
+@import "poole";
+@import "syntax";
+@import "hyde";
+
 @import "home";
